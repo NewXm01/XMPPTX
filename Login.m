@@ -16,13 +16,10 @@
     UIView *userNameView;
     UITextField *passWordTextField;
     UITextField *userNameTextField;
-
 }
-
 @end
 
 @implementation Login
-
 
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -69,24 +66,18 @@
                                 [NSLayoutConstraint constraintWithItem:loginView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1 constant:200],
                                 [NSLayoutConstraint constraintWithItem:loginView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1 constant:250]]];
     
-
-
-    
     
     [userNameTextField setTranslatesAutoresizingMaskIntoConstraints:NO];
-    
     [loginView addConstraints:@[[NSLayoutConstraint constraintWithItem:userNameTextField attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:loginView attribute:NSLayoutAttributeTop multiplier:1 constant:10],
                                 [NSLayoutConstraint constraintWithItem:userNameTextField attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:userNameTextField attribute:NSLayoutAttributeLeft multiplier:1 constant:20],
                                 [NSLayoutConstraint constraintWithItem:userNameTextField attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeHeight multiplier:1 constant:20],
                                 [NSLayoutConstraint constraintWithItem:userNameTextField attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeWidth multiplier:1 constant:80]]];
-    
 }
 
 
 -(void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    
 }
 
 
@@ -99,8 +90,7 @@
 -(void)rememberBtn:(id)sender
 {
 //    NSString *message = @"";
-//
-//    NSDictionary *messageDic = [NSDictionary dictionaryWithObjectsAndKeys:@"", @"file", [NSNumber numberWithInt:1], @"messageType", message, @"Text", nil];
+
 }
 
 @end

@@ -12,8 +12,6 @@
 {
     NSLayoutConstraint *con;
 }
-@property (strong, nonatomic)  UITextField *userNameTextField;
-@property (strong, nonatomic)  UITextField *passWordTextField;
 -(void)loginBtnPressed:(id)sender;
 -(void)rememberBtn:(id)sender;
 
