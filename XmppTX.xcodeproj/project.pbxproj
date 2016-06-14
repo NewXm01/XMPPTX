@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C213E161CA6813600D5273A /* login_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C213E0B1CA6813600D5273A /* login_background.png */; };
-		1C213E171CA6813600D5273A /* login_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C213E0C1CA6813600D5273A /* login_btn.png */; };
-		1C213E181CA6813600D5273A /* login_btnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C213E0D1CA6813600D5273A /* login_btnselected.png */; };
-		1C213E191CA6813600D5273A /* login_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C213E0E1CA6813600D5273A /* login_checkbox.png */; };
-		1C213E1A1CA6813600D5273A /* login_checkboxselect.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C213E0F1CA6813600D5273A /* login_checkboxselect.png */; };
-		1C213E1B1CA6813600D5273A /* login_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C213E101CA6813600D5273A /* login_password.png */; };
-		1C213E1C1CA6813600D5273A /* login_username.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C213E111CA6813600D5273A /* login_username.png */; };
-		1C213E1D1CA6813600D5273A /* main_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C213E131CA6813600D5273A /* main_background.png */; };
-		1C213E1E1CA6813600D5273A /* main_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C213E141CA6813600D5273A /* main_background@2x.png */; };
 		1C213E311CA6DB5F00D5273A /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C213E231CA6DB5F00D5273A /* DDXMLElementAdditions.m */; };
 		1C213E321CA6DB5F00D5273A /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C213E261CA6DB5F00D5273A /* NSString+DDXML.m */; };
 		1C213E341CA6DB5F00D5273A /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C213E2A1CA6DB5F00D5273A /* DDXMLDocument.m */; };
@@ -115,15 +106,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C213E0B1CA6813600D5273A /* login_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_background.png; sourceTree = "<group>"; };
-		1C213E0C1CA6813600D5273A /* login_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_btn.png; sourceTree = "<group>"; };
-		1C213E0D1CA6813600D5273A /* login_btnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_btnselected.png; sourceTree = "<group>"; };
-		1C213E0E1CA6813600D5273A /* login_checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_checkbox.png; sourceTree = "<group>"; };
-		1C213E0F1CA6813600D5273A /* login_checkboxselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_checkboxselect.png; sourceTree = "<group>"; };
-		1C213E101CA6813600D5273A /* login_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_password.png; sourceTree = "<group>"; };
-		1C213E111CA6813600D5273A /* login_username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_username.png; sourceTree = "<group>"; };
-		1C213E131CA6813600D5273A /* main_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_background.png; sourceTree = "<group>"; };
-		1C213E141CA6813600D5273A /* main_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_background@2x.png"; sourceTree = "<group>"; };
 		1C213E221CA6DB5F00D5273A /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
 		1C213E231CA6DB5F00D5273A /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
 		1C213E251CA6DB5F00D5273A /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
@@ -267,32 +249,14 @@
 		1C213E0A1CA6809900D5273A /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				1C213E121CA6813600D5273A /* LoginPic */,
 				1C213E151CA6813600D5273A /* MainPic */,
 			);
 			name = Image;
 			sourceTree = "<group>";
 		};
-		1C213E121CA6813600D5273A /* LoginPic */ = {
-			isa = PBXGroup;
-			children = (
-				1C213E0B1CA6813600D5273A /* login_background.png */,
-				1C213E0C1CA6813600D5273A /* login_btn.png */,
-				1C213E0D1CA6813600D5273A /* login_btnselected.png */,
-				1C213E0E1CA6813600D5273A /* login_checkbox.png */,
-				1C213E0F1CA6813600D5273A /* login_checkboxselect.png */,
-				1C213E101CA6813600D5273A /* login_password.png */,
-				1C213E111CA6813600D5273A /* login_username.png */,
-			);
-			name = LoginPic;
-			path = "../../Downloads/Rencuo-master/Rencuo/Image/LoginPic";
-			sourceTree = "<group>";
-		};
 		1C213E151CA6813600D5273A /* MainPic */ = {
 			isa = PBXGroup;
 			children = (
-				1C213E131CA6813600D5273A /* main_background.png */,
-				1C213E141CA6813600D5273A /* main_background@2x.png */,
 			);
 			name = MainPic;
 			path = "../../Downloads/Rencuo-master/Rencuo/Image/MainPic";
@@ -671,18 +635,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C8F98A61CA29374001D0639 /* Assets.xcassets in Resources */,
-				1C213E181CA6813600D5273A /* login_btnselected.png in Resources */,
 				1C213E911CA6DD0000D5273A /* Documentation.html in Resources */,
-				1C213E1A1CA6813600D5273A /* login_checkboxselect.png in Resources */,
-				1C213E161CA6813600D5273A /* login_background.png in Resources */,
-				1C213E171CA6813600D5273A /* login_btn.png in Resources */,
-				1C213E1E1CA6813600D5273A /* main_background@2x.png in Resources */,
-				1C213E1D1CA6813600D5273A /* main_background.png in Resources */,
-				1C213E1C1CA6813600D5273A /* login_username.png in Resources */,
 				1C213E971CA6DD0000D5273A /* Documentation.html in Resources */,
-				1C213E1B1CA6813600D5273A /* login_password.png in Resources */,
 				1C213EA01CA6DD0000D5273A /* README.txt in Resources */,
-				1C213E191CA6813600D5273A /* login_checkbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -886,11 +841,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wu Yin (BST5MJ3YN3)";
 				INFOPLIST_FILE = XmppTX/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nuhe.zjjss215.instructor.XmppTX;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjjss215.instructor.XmppTX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3747cc82-dfd7-4244-a059-5222fcd8b71d";
 			};
 			name = Debug;
 		};
@@ -899,11 +856,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wu Yin (BST5MJ3YN3)";
 				INFOPLIST_FILE = XmppTX/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nuhe.zjjss215.instructor.XmppTX;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjjss215.instructor.XmppTX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3747cc82-dfd7-4244-a059-5222fcd8b71d";
 			};
 			name = Release;
 		};
